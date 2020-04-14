@@ -1,0 +1,5 @@
+#!name=MitM All Hostnames
+#!desc=Perform MitM on all hostnames with port 443, except those to Apple and other common sites which can't be inspected. You still need configure CA certificate and enable the main switch of MitM.
+
+[MITM]
+hostname = %APPEND% tieba.baidu.com, *.rrys2019.com, ios.zmzapi.com, www.52pojie.cn, *.iqiyi.com,api.m.jd.com, api.picsart.c*, account.wps.cn, vsco.co
